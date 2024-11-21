@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:5000'); // Update with your server URL
+const socket = io('https://konnect-v2-backend.onrender.com'); // Update with your server URL
 
 export default function MainPage() {
   const router = useRouter();
